@@ -1,0 +1,5 @@
+[run]
+include = django_cookiecutter_docker/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
